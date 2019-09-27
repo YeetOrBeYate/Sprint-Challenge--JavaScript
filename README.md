@@ -30,13 +30,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+-forEach simply loops through each array value, allowing you to change it, compare it, or push it to another function or object. Map creates a whole new array based on your functions needs.
+
 2. What is the difference between a function and a method?
+-methods are functions specific to an object, while function are for everyone to Use
+
 
 3. What is closure?
 
+-closure is the scope and accesability of JavaScript objects.
+
 4. Describe the four rules of the 'this' keyword.
+-Default binding: Unless specified, 'this' will refer to the window object
+-Implicit binding: the object standing right before the dot is what the keyword is bound to
+-Explicit binding: When you force a function call to use a particular object, you are telling a function what object should use for 'this'
+-New binding: the properties and methods are added to the object refered by 'this'
 
 5. Why do we need super() in an extended class?
+-To pass the constructor arguments up to the parent object 
 
 ## Project Set up
 
@@ -65,11 +76,11 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
+Test your knowledge of objects and arrays.
 * [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
+This challenge takes a look at callbacks and closures as well as scope.
 * [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
